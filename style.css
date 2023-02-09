@@ -63,3 +63,114 @@ body {
   left: 800px;
   top: 240px;
 }
+
+.second-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #d8d6d6a2;
+}
+
+.personal-info {
+  position: absolute;
+  width: 179px;
+  height: 29px;
+  left: 100px;
+  top: 27px;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.eclipse {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 18px;
+  top: 40px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+}
+
+.vector {
+  width: 9.21px;
+  height: 16px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.second-line {
+  height: 1px;
+  background-color: rgba(26, 26, 26, 1);
+  position: absolute;
+  top: 89px;
+  left: 100px;
+  right: 100px;
+  border: 1px solid #1A1A1A;
+}
+
+.show-page {
+  position: absolute;
+  width: 29px;
+  height: 24px;
+  right: 100px;
+  top: 40px;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1A1A1A;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 371px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #BCBCBC;
+  border-radius: 4px;
+}
+
+.mypic {
+  width: 107px;
+  height: 27px;
+  background: #0E80BF;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+textarea {
+  width: 798px;
+  height: 103px;
+}
+
+input[type="email"] {
+  width: 798px;
+  height: 48px;
+}
+
+input[type="tel"] {
+  width: 798px;
+  height: 48px;
+}
+
+input[type="submit"] {
+  position: absolute;
+  width: 151px;
+  height: 48px;
+  right: 172px;
+  bottom: 5px;
+  background: #6B40E3;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+}
